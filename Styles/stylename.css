@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body{
+    
+}
+.our-products{
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:12px;
+    justify-content: center;
+
+}
+.card{
+   
+    border:1px solid #323232;
+    border-radius: 6px;
+    padding: 12px;
+   flex: 0 0 calc((100% - 3 * 12px) / 4);
+   min-width: 0;
+   
+}
+.img{
+    width:100%;
+     border-radius: 6px;
+     margin-bottom: 12px;
+}
+.h3{
+    font-weight: 700;
+    font-size: 22px;
+    font-family: "Glory", sans-serif;
+    color: #323232;
+    margin-bottom:12px;
+}
+.card-desc{
+   font-family:"Glory", sans-serif; 
+   font-size: 16px;
+   font-weight: 700;
+   color: #32323296;
+   margin-bottom: 12px;
+}
+.card-price{
+    font-weight: 700;
+    font-size: 22px;
+    font-family: "Glory", sans-serif;
+    color: #28A745;
+    margin-bottom: 12px;
+}
+.card-price span{
+     font-weight: 700;
+    font-size: 18px;
+    font-family: "Glory", sans-serif;
+    color: #DC3545;
+    text-decoration: line-through;
+}
+ .card-action
+ {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    
+    
+ }
+.card-action button:nth-child(1){
+    background-color: #0078ff;
+    border:none;
+    border-bottom-left-radius: 6px;
+    color:#ffffff;
+    padding-top : 13px ;
+    padding-bottom:13px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Glory", sans-serif;
+    display: flex;
+    justify-content: center;
+    gap:6px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.card-action button:nth-child(2){
+    background-color: transparent;
+    border:2px solid #0078ff;
+    border-bottom-right-radius: 6px;
+    color:#0078ff;
+    padding : 10px;
+}
